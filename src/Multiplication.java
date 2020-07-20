@@ -5,7 +5,7 @@ public class Addition{
         Scanner sc= new Scanner(System.in);
         int a= sc.nextInt();
         int b=sc.nextInt();
-        int c=a*b;
-        System.out.println(b);
+//        int c=a*b;    //no need for 3rd variable
+        System.out.println(b*a);
     }
 }

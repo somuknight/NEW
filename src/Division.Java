@@ -5,7 +5,7 @@ public class Addition{
         Scanner sc= new Scanner(System.in);
         int a= sc.nextInt();
         int b=sc.nextInt();
-        int c=b/a;
+        double c=b/a;      //change the return type to double
         System.out.println(c);
     }
 }
